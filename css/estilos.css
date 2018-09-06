@@ -1,0 +1,43 @@
+body{
+    background-image: url(..//img/fondo\ imagen.jpg);
+    background-size: cover;
+}
+
+#logo{
+width: 100px;
+margin-top: -50px;
+}
+
+#color{
+    padding: 50px;
+}
+
+#iconomenu{
+    font-size: 3rem;
+}
+
+#navegacion{
+    margin: -50px;
+}
+
+#fondoimagen{
+    width: 100%;
+}
+
+h2{
+    margin-top: -40px;
+    margin-left: 160px;
+    margin-right: 450px;
+    color:#6d4c41
+}
+
+@media (max-width:1300px){
+    h2{
+        display: none;
+    }
+}
+
+.iconos{
+    width: 50px;
+    margin: 10px;
+}
