@@ -1,6 +1,7 @@
 body{
     background-image: url(..//img/fondo\ imagen.jpg);
     background-size: cover;
+    background-repeat: no-repeat
 }
 
 #logo{
@@ -18,6 +19,11 @@ margin-top: -50px;
 
 #navegacion{
     margin: -50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 #fondoimagen{
@@ -40,4 +46,24 @@ h2{
 .iconos{
     width: 50px;
     margin: 10px;
+}
+
+@media (max-width:900px){
+    #barraiconos{
+        display: none;
+    }
+}
+
+#galeria{
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#imgcentral{
+    margin-top: 100px;
+    width:
 }
