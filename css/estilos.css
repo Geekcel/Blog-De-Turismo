@@ -1,7 +1,7 @@
 body{
     background-image: url(..//img/fondo\ imagen.jpg);
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 #logo{
@@ -48,6 +48,10 @@ h2{
     margin: 10px;
 }
 
+#barraiconos{
+    position: fixed
+}
+
 @media (max-width:900px){
     #barraiconos{
         display: none;
@@ -63,7 +67,44 @@ h2{
     -o-border-radius: 10px;
 }
 
+#galeria2{
+    width: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 #imgcentral{
     margin-top: 100px;
-    width:
+}
+
+
+
+#miniavion{
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+h3{
+    color: #6d4c41
+}
+
+h5{
+    color: #6d4c41
+}
+
+.input-field{
+color: #6d4c41
+}
+
+.btn{
+    background-color: #6d4c41
 }
