@@ -108,3 +108,24 @@ color: #6d4c41
 .btn{
     background-color: #6d4c41
 }
+
+.autor{
+    width: 150px;
+}
+
+.contautor{
+    margin-top: -677px;
+}
+
+@media(max-width:1000px){
+    .contautor{
+        display: none;
+    }
+}
+
+@media(max-width: 990px){
+    .contautor{
+    display: inline;
+    margin-top:0px;
+    }
+}
